@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<style>
+    *{font-size: 12pt;}
+
+    .col, 
+    .col-lg-6, .col-md-4, 
+    .col-lg-3, .col-lg-12{
+        border: 1px dotted red;
+        padding-left: 10px;
+    }
+
+    .row{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+</style>
+
+<body>
+ <div class="container">
+    <h1>Bootstrap Gird System</h1>
+     <!-- 1행 12열 -->
+      <div class="row">
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+      </div>
+
+        <!-- 1행 2열 데스크탑(lg, md)일 때는 2열 태블릿(sm) 모바일(xs)에서는 1열 
+        디폴트: 12컬럼
+        해상도에 따라 컬럼을 달리 지정하고자 할 때
+			큰 데스크탑: col-lg-n
+            데스크탑: col-md-n
+            tablet : col-sm-n
+            스마트폰: col-xs-n
+        -->
+
+       <div class="row">
+           <div class="col-lg-6 col-xs-12">1열</div>
+           <div class="col-lg-6 col-xs-12">2열</div>
+       </div>  <p></p>
+ 
+		<div class="row">
+			<div class="col-md-4">1</div>
+			<div class="col-md-4">2</div>
+			<div class="col-md-4">3</div>
+		</div> <p></p>
+
+	    <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">1</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">2</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">3</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">4</div>
+        </div> <p></p>
+
+		 <div class="row">
+			<div class="col-lg-12">abc</div>
+		 </div>
+			<!-- lg일때 4컬럼
+				md 일때 3컬럼
+				sm 일때 2컬럼
+				xs 일때 1컬럼으로 나오도록 
+			-->
+		<p></p>
+		<img  class="mx-auto rounded-circle" src="./images/a1.png"  width="350"> 
+		<img  class="mx-auto rounded-circle" src="./images/corgi.jpg" width="350">
+		<img  class="mx-auto rounded-circle" src="./images/a3.png"  width="350"/>
+
+  </div>
+</body>
+</html>
+

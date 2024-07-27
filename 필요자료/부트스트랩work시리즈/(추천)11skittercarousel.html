@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/skitter-slider@5.1.4/dist/jquery.skitter.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/skitter-slider@5.1.4/dist/skitter.min.css" rel="stylesheet">
+  <title>11skittercarouse.html</title>
+
+<script>
+  $(document).ready(function() {
+      // $(".skitter-large").skitter();
+      // $('.skitter-large').skitter('setAnimation', 'fade')
+
+      $('.skitter-large').skitter({
+       navigation: true,
+        dots: false
+      });
+
+      //$('.skitter-large').skitter({ focus: true});
+
+      //$('.skitter-large').skitter({ preview: true});
+
+      // $('.skitter-large').skitter({  thumbs: true });
+  });
+</script>
+
+</head>
+  <body>
+  <div align="center">
+    <h3> 11skittercarouse.html 시간이 오래걸림  </h3>
+    <!-- skitter 화면 효과 Example Code -->
+
+    <div class="skitter skitter-large">
+      <ul>
+        <li>
+          <a href="#"> <img src="https://wivid.kr/wp-content/uploads/2020/07/%EC%9D%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D%EC%9D%98-%ED%98%81%EC%8B%A02-1.jpg"
+            class="d-block w-100" alt="desk" height="450px"></a>
+          <div class="label_text"> <h5>개발자 김영임</h5>
+            <p>I'll do my best effort whenever where I am.</p></div>
+        </li>
+        <li>
+          <a href="#"> <img src="./images/img_nature_wide.jpg" class="d-block w-100"
+            alt="career" height="450px"></a>
+          <div class="label_text"> <h5>Enjoy my life.</h5>
+            <p>Enjoy your life communication with others.</p></div>
+        </li>
+        <li>
+          <a href="#"><img src="./images/img_mountains_wide.jpg"
+            class="d-block w-100" alt="withmom" height="450px"></a>
+          <div class="label_text"><h5>프로젝트 주제 </h5>
+            <p>Take good care of Members.</p></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    <!-- bootstrap의 input textarea -->
+  <p></p> <br> <br>
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+      <!-- End Example Code -->
+      <p></p>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button> 
+ 
+  </body>
+</html>
